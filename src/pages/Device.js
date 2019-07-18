@@ -9,6 +9,7 @@ class Login extends Component {
     render() {
         return (
             <View style={styles.view}>
+                <Text style={styles.welcome}>Quantos dispositivos pretende gerenciar?</Text>
                 <TextInput style={styles.input} placeholder='Login' value={this.state.user}/>
                 <TextInput style={styles.input} placeholder='Senha' value={this.state.password}/>
             </View>

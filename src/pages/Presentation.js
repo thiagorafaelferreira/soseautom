@@ -12,7 +12,7 @@ import _ from 'lodash';
 
 export default class Presentation extends Component {
 
-  async componentWillMount() {
+  async componentDidMount() {
     _.delay(() => this.props.navigation.navigate('Login'), 1000);
   }
 
